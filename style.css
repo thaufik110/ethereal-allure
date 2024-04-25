@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+header, .navbar {
+    background-color: #f4f4f4;
+    color: #333;
+    padding: 10px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header h1 span {
+    color: aqua;
+}
+
+.navbar a {
+    color: #333;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.navbar a:hover {
+    color: aqua;
+}
+
+.sidebar {
+    width: 15%;
+    padding: 20px;
+    float: left;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 30px;
+}
+
+.sidebar ul li {
+    margin-bottom: 10px;
+}
+
+.sidebar ul li a {
+    text-decoration: none;
+    color: #333;
+    display: block;
+}
+
+.sidebar ul li a:hover {
+    color: aqua;
+}
+
+section {
+    width: 85%;
+    padding: 30px;
+    background: #ADD8E6;
+    min-height: 100vh;
+    float: left;
+}
+
+section .content h2 {
+    text-align: center;
+}
+
+section .content img,
+.idegame img {
+    display: block;
+    margin: 0 auto;
+    width: 50%;
+    margin-top: 20px;
+}
+
+.tentang, .contact {
+    text-align: center;
+}
+
+footer {
+    background: #f4f4f4;
+    color: #333;
+    text-align: center;
+    padding: 20px 0;
+    clear: both;
+}
+
+footer span{
+    color: red;
+}
+
+/* Media Query untuk Desain Responsif */
+@media (max-width: 768px) {
+    .sidebar, section {
+        width: 100%;
+        float: none;
+    }
+}
